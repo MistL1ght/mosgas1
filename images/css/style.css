@@ -143,43 +143,74 @@ a {
   color: #18557f;
 }
 li {
-  padding-top: 2em;
+  padding-top: 2.375em;
 }
 ul {
   height: 6em;
-
   display: flex;
   justify-content: space-around;
   margin: 0 auto;
   flex-wrap: wrap;
 }
-.info {
-  font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  /* or 150% */
 
+.flex {
   display: flex;
   justify-content: space-around;
+}
+.font {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  color: #000000;
 }
 .mediumtext {
   width: em;
   height: 8em;
+  margin-bottom: 4.5em;
+}
+.mediumtext span {
+  font-weight: bold;
 }
 p {
   margin-top: 3em;
 }
-.info2 {
+.font2 {
+  /* Заголовок синий */
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 34px;
+  /* identical to box height */
+
+  text-align: center;
+  margin-bottom: 2em;
+  color: #18557f;
+}
+.font3 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+
+  color: #000000;
+}
+.container-el p {
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 24px;
-  /* or 150% */
-  display: flex;
-  justify-content: space-around;
-
+  /* or 171% */
+  padding-right: 4em;
+  margin-top: 2em;
   color: #000000;
+}
+.container-el span {
+  font-weight: bold;
 }
