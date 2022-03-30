@@ -267,7 +267,9 @@ p {
   margin-bottom: 1.5em;
   color: #000000;
 }
-
+.sizefont4 {
+  width: 40em;
+}
 .font5 {
   /* Заголовок синий */
 
