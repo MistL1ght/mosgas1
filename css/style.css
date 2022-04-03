@@ -79,6 +79,9 @@ h6 {
   height: 25em;
   background-image: url(/images/photo.png);
 }
+html{
+  scroll-behavior: smooth;
+}
 .header-low {
   padding-top: 1em;
   width: 100%;
@@ -446,10 +449,92 @@ p.font4 {
     font-size: 20px;
     line-height: 24px;
 }
-
+.pos6{
+  margin-bottom:2em;
+}
 .left li{
   display: flex;
 }
 .right li{
   display: flex;
+}
+.row-left{
+  display: flex;
+  flex-direction: column;
+
+}
+.rectangle{
+  display: flex;
+  width: 28em;
+  height:5em;
+  background: #E5F0F4;
+  margin-bottom:2em
+}
+.rectangle a{
+  color: #2A5082;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  margin-top: 0.875em;
+  margin-left: 1.5em;
+  
+}
+.rectangle.square{
+  height:100%;
+  width: 6em;
+}
+.row-left{
+  padding-right:3em;
+  margin-right:1em;
+}
+
+.row-left img{
+  width: 50%;
+  margin-left:25%;
+  margin-top:25%;
+}
+.cards{
+  display: flex;
+  margin-bottom: 3em;
+}
+.flex-column-card1{
+  border: 1px solid #e5f0f4;
+  box-sizing: border-box;
+  width: 38.625em;
+  height: 31em;
+  margin-right:1em;
+}
+.firstblock img{
+  margin-top:4em;
+  
+  margin-left:6em;
+}
+.firstblock p{
+  width: 27em;
+  margin-left:6em;
+}
+.flex-column-card2{
+  border: 1px solid #e5f0f4;
+  box-sizing: border-box;
+  width: 38.625em;
+  height: 31em;
+  margin-left:1em;
+}
+.secondblock img{
+  margin-top:4em;
+  
+  margin-left:6em;
+}
+.secondblock p{
+  width: 30em;
+  margin-left:6em;
+}
+.font3 span{
+  font-weight:bold;
+}
+.sizebox{
+  display:flex;
+  width: 72em;
 }
