@@ -172,6 +172,10 @@ a {
 li {
   padding-top: 2.375em;
 }
+.content-nav a:hover{
+  font-size:17px;
+  
+}
 ul {
   height: 6em;
   display: flex;
@@ -482,6 +486,9 @@ p.font4 {
   margin-top: 0.875em;
   margin-left: 1.5em;
   
+}
+.rectangle a:hover{
+  text-decoration: underline;
 }
 .rectangle.square{
   height:100%;
