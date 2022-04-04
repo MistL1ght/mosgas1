@@ -291,7 +291,9 @@ p {
   align-items: center;
 }
 
-iframe {
+video {
+  width: 730px;
+  height: 411px;
   margin-bottom: 5em;
 }
 p.font4 {
